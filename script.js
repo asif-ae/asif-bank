@@ -7,3 +7,4 @@ loginBtn.addEventListener('click', function() {
 
   // Deposit button event handler (This section will done letter with function video no. 19.11)
   // Update current balance (This section will done letter with function video no. 19.11)
+  // (Plus Withdraw 19.12 and 19.13)
