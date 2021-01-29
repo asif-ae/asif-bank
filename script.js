@@ -5,24 +5,5 @@ loginBtn.addEventListener('click', function() {
   document.getElementById('transaction-area').style.display = 'block';
 });
 
-// Deposit button event handler
-const depositBtn = document.getElementById('add-deposit');
-let depositAmount = document.getElementById('deposit-amount').value;
-depositBtn.addEventListener('click', function() {
-  let depositAmountStr = parseFloat(depositAmount);
-
-  document.getElementById('deposit-amount').value = "";
-
-  updateSpanText('current-deposit', depositAmountStr);
-
-  // Update current balance
-  updateSpanText('current-balance', tot);
-});
-
-function updateSpanText(id, plus) {
-  const str = document.getElementById(id).innerText;
-  const depo = parseFloat(str);
-  var tot = depo + plus;
-  const totF = tot.toFixed(2);
-  document.getElementById(id).innerText = totF;
-}
+  // Deposit button event handler (This section will done letter with function video no. 19.11)
+  // Update current balance (This section will done letter with function video no. 19.11)
